@@ -1,6 +1,8 @@
 baseURL: https://yizhezhong/yizhezhong.github.io
 
 languageCode: zh-cn
+defaultContentLanguage: zh-cn
+defaultContentLanguageInSubdir: true
 title: "Yizhe小站"
 
 # Use Hugo modules to add theme
@@ -18,12 +20,12 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  en:
-    languageName: English
-    weight: 2
   zh-cn:
     languageName: 简体中文
     weight: 1
+  en:
+    languageName: English
+    weight: 2
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
