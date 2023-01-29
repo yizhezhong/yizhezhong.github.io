@@ -15,7 +15,7 @@ degrees:
   timeframe: 2019-2024
   institution:
     name: Dalhousie University · Canada
-    url: "http://www.dal.ca"
+    url: "https://www.dal.ca/faculty/engineering/electrical.html"
   # grade: #(optional)
   #   scale: CGPA
   #   achieved: 3.6
@@ -33,20 +33,20 @@ degrees:
     collapseAfter: 3
     courses:
     - name: 数字电路
-      achieved: A+
+      achieved: N/A
       #outOf: 4.3
     - name: 微处理器
-      achieved: A
+      achieved: N/A
       #outOf: 4.3
     - name: 网络与系统
-      achieved: A
+      achieved: N/A
       #outOf: 4.3
 - name: 数学（纯粹数学方向）学士
   icon: fa-graduation-cap
   timeframe: 2019-2024
   institution:
     name: Dalhousie University · Canada
-    url: "http://www.dal.ca"
+    url: "https://www.dal.ca/faculty/science/math-stats.html"
   # grade: #(optional)
   #   scale: CGPA
   #   achieved: 3.5
@@ -57,13 +57,13 @@ degrees:
     collapseAfter: 3
     courses:
     - name: 应用图论
-      achieved: A+
+      achieved: N/A
       #outOf: 4.3
     - name: 抽象代数
-      achieved: A
+      achieved: N/A
       #outOf: 4.3
     - name: 数论
-      achieved: A+
+      achieved: N/A
       #outOf: 4.3
     # - name: Artificial Intelligent
     #   achieved: 3.75

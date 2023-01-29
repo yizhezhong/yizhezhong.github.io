@@ -23,8 +23,8 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: John's Blog！！！
+  title: Yizhe小站
   type: website
-  description: Portfolio and personal blog of John Doe.
-  image: images/author/john.png
-  url: https://hugo-toha.github.io
+  description: 钟一哲的档案和个人博客。
+  image: images/author/dysonSphere.jpg
+  url: https://yizhezhong.github.io

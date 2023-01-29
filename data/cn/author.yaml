@@ -7,9 +7,9 @@ image: "images/author/dysonSphere.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "yizhezhong@outlook.com.com"
-  phone: "+1-4373407370"
+  #phone: "+1-#"
   github: yizhezhong
-  #linkedin: "https://ca.linkedin.com/in/yizhe-zhong-77720a221"
+  #linkedin: "#"
 
 # some summary about what you do
 summary:
