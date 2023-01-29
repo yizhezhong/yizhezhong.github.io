@@ -1,0 +1,55 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: C/C++
+  logo: /images/sections/skills/c.png
+  summary: "熟悉C语言编程，多次使用C语言完成课程项目。"
+  #url: "https://kubernetes.io/"
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "熟悉python语言，并对爬虫有所了解。"
+  url: "https://https://www.python.org/"
+
+- name: VHDL/Verilog
+  logo: /images/sections/skills/vhdl.png
+  summary: "可以使用VHDL/Verilog完成简单任务。"
+
+- name: MATLAB
+  logo: /images/sections/skills/matlab.png
+  summary: "掌握MATLAB的基本用法，可以使用MATLAB进行数学、信号以及控制系统相关的分析。"
+  url: "https://www.mathworks.com/"
+
+- name: Java
+  logo: /images/sections/skills/java.png
+  summary: "了解Java基本语法。"
+  url: "https://www.java.com/"
+
+- name: HTML & CSS
+  logo: /images/sections/skills/html.png
+  summary: "自学了解网页制作，可以制作简单网页。"
+
+- name: ROS
+  logo: /images/sections/skills/ros2.png
+  summary: "曾使用ROS完成机器人课程设计。"
+  url: "https://www.ros.org/"
+
+- name: SOLIDWORKS
+  logo: /images/sections/skills/solidworks.png
+  summary: "可以使用SOLIDWORKS完成简单的建模。"
+  url: "https://www.solidworks.com/"
+
+- name: Adobe Creative Cloud
+  logo: /images/sections/skills/adobe2.png
+  summary: "自学了解Ai、Ps、Ae、Pr等软件，有一些创作经历。"
+  url: "https://https://www.adobe.com/" 

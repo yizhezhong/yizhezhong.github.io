@@ -1,0 +1,30 @@
+# Copyright Notice
+copyright: © 2023 Copyright.
+
+# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
+disclaimer: "本网站所载资料只作一般参考用途。虽然我们努力保持信息的最新和正确，但我们不就网站或网站上包含的信息、
+产品、服务或相关图形的完整性、准确性、可靠性、适用性或可用性作出任何类型的明示或暗示的陈述或保证。
+因此，您对此类信息的任何依赖均严格由您自己承担风险。在任何情况下，我们都不对任何损失或损害负责，
+包括但不限于间接或间接的损失或损害，或因使用本网站而引起的或与使用本网站有关的数据损失或利润而引起的任何损失或损害。"
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: 钟一哲的档案和个人博客。
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+customMenus:
+#- name: 微信公众号
+  #url: https://toha-guides.netlify.app/posts/
+  # specify whether to hide the menu item from top navbar or not.
+  #hideFromNavbar: false
+  # specify whether to show the menu item in footer or not.
+  # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
+  #showOnFooter: false
+
+# Specify OpenGraph Headers
+openGraph:
+  title: John's Blog！！！
+  type: website
+  description: Portfolio and personal blog of John Doe.
+  image: images/author/john.png
+  url: https://hugo-toha.github.io
