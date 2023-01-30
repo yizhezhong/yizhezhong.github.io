@@ -13,7 +13,7 @@ section:
 skills:
 - name: C/C++
   logo: /images/sections/skills/c.png
-  summary: "Familiar with C language programming. Completed multiple course projects in C language."
+  summary: "Familiar with C programming. Completed multiple course projects with C language."
   #url: "https://kubernetes.io/"
 
 - name: Python
@@ -27,7 +27,7 @@ skills:
 
 - name: MATLAB
   logo: /images/sections/skills/matlab.png
-  summary: "Know basic usage of MATLAB, can perform analysis to mathematics, signal and control system with MATLAB."
+  summary: "Know basic usage of MATLAB. Capable of performing analysis related to mathematics, signals and control systems with MATLAB."
   url: "https://www.mathworks.com/"
 
 - name: Java
@@ -37,11 +37,11 @@ skills:
 
 - name: HTML & CSS
   logo: /images/sections/skills/html.png
-  summary: "Learned web programming from self-learning. Capable of making simple websites."
+  summary: "Learned web development from self-learning. Capable of making simple websites."
 
 - name: ROS
   logo: /images/sections/skills/ros2.png
-  summary: "Have experience in using ROS in a Robot design course."
+  summary: "Have experience of using ROS in a Robot design course."
   url: "https://www.ros.org/"
 
 - name: SOLIDWORKS
@@ -51,5 +51,5 @@ skills:
 
 - name: Adobe Creative Cloud
   logo: /images/sections/skills/adobe2.png
-  summary: "Learned Ai, Ps, Ae, Pr, etc., from self-learning"
+  summary: "Learned Ai, Ps, Ae, Pr, etc., from self-learning. Have experience of using these softwares."
   url: "https://https://www.adobe.com/" 
