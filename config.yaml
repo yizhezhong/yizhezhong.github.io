@@ -1,10 +1,10 @@
 baseURL: https://yizhezhong/yizhezhong.github.io
 
-languageCode: zh-cn
-title: "Yizhe小站"
+languageCode: en
+title: "Yizhe.Site"
 
 defaultContentLanguage: zh-cn
-#defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: true
 
 # Use Hugo modules to add theme
 module:
