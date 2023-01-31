@@ -191,14 +191,25 @@
     <hr />
       <div class="container">
 
-        <!-- <div class="col-md-4 text-left"> -->
-          <!-- <span id="nusuanzi_container_site_uv">
-            本站访客数<span id = "busuanzi_value_site_uv"></span>人次
-          </span> -->
-        <!-- </div> -->
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        <!-- <div class="col-md-4 text-center">
+          <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+        </div>
+        <div class="col-md-4 text-center">
+          <span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv"></span>人</span>
+        </div> -->
+        
+          <!-- <span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span> -->
+        
+        <div class="container">
+        <div class="row text-middle">
+          <div class="col-md-4">
+            <span id="busuanzi_container_site_pv" style ="float:middle" white-space: nowrap;>本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+          </div>
 
-        <div class="col-md-12 text-center">
-          本站已安全运行 <SPAN id=span_dt_dt style="color: #0199e4;"></SPAN>
+          <!-- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -->
+          <div class="col-md-4">
+            本站已安全运行 <span id=span_dt_dt style="color: #0199e4; float:middle"></span>
           <SCRIPT language=javascript>
           function show_date_time(){
           window.setTimeout("show_date_time()", 1000);
@@ -220,8 +231,16 @@
           show_date_time();
           </SCRIPT>
         </div>
+        <!-- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -->
+
+        <div class="col-md-4">
+          <span id="busuanzi_container_site_uv" style = "float:middle">本站总访客数<span id="busuanzi_value_site_uv"></span>人</span>
+        </div>
+        
+        </div>
 
         
+      </div>
       </div>
     </div>
 
