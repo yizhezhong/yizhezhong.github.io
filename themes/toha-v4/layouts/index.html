@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
 <head>
-    <meta name="baidu-site-verification" content="codeva-HT1NXpxUYx" />
     <title>{{- .Site.Title -}}</title>
     {{ $siteDescription := .Site.Params.description }}
     {{ if (index .Site.Data .Site.Language.Lang).site }}
@@ -10,7 +9,7 @@
     {{ $siteDescription = $siteConfig.description }}
     {{ end }}
     {{ end }}
-
+    <meta name="description" content="{{ $siteDescription }}" />
 
     <!-- import common headers -->
     {{- partial "header.html" . -}}
