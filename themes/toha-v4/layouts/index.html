@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
-  <head>
+<head>
+    <meta name="baidu-site-verification" content="codeva-HT1NXpxUYx" />
     <title>{{- .Site.Title -}}</title>
     {{ $siteDescription := .Site.Params.description }}
     {{ if (index .Site.Data .Site.Language.Lang).site }}
-      {{ $siteConfig := (index .Site.Data .Site.Language.Lang).site }}
-      {{ if $siteConfig.description }}
-        {{ $siteDescription = $siteConfig.description }}
-      {{ end }}
+    {{ $siteConfig := (index .Site.Data .Site.Language.Lang).site }}
+    {{ if $siteConfig.description }}
+    {{ $siteDescription = $siteConfig.description }}
+    {{ end }}
     {{ end }}
     <meta name="description" content="{{ $siteDescription }}" />
-    
+
     <!-- import common headers -->
     {{- partial "header.html" . -}}
     {{- partial "opengraph.html" . -}}
-    
+
     <!--================= add analytics if enabled =========================-->
     {{- partial "analytics.html" . -}}
-  </head>
+</head>
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 
     <!--- NAVBAR ------------------------->
