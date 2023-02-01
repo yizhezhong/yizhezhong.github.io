@@ -29,7 +29,7 @@
 
 {{/* apply image processing. don't use "Fit" in svg or gif because its not supported */}}
 {{ if and $authorImage (and (ne $authorImage.MediaType.SubType "svg") ( ne $authorImage.MediaType.SubType "gif")) }}
-{{ $authorImage = $authorImage.Fit "1440x1440"}} {{/*.Fit "148x148" rm edited by yizhe*/}}
+{{ $authorImage = $authorImage.Fit "720x720"}} {{/*.Fit "148x148" rm edited by yizhe*/}}
 {{ end }}
 {{/* get file that matches the filename as specified as src="" in shortcode */}}
 {{ $src := resources.Get $backgroundImage }}
