@@ -204,12 +204,12 @@
         <div class="container">
         <div class="row text-middle">
           <div class="col-md-4">
-            <span id="busuanzi_container_site_pv" style ="float:middle" white-space: nowrap;>本站总访问量：<span id="busuanzi_value_site_pv"></span></span>
+            <span id="busuanzi_container_site_pv" style ="float:middle" white-space: nowrap;>{{ i18n "totalVisits" }}<span id="busuanzi_value_site_pv"></span></span>
           </div>
 
           <!-- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -->
           <div class="col-md-4">
-            本站已安全运行 <span id=span_dt_dt style="color: rgb(77, 127, 184); float:middle"></span>
+            {{ i18n "runningTime" }} <span id=span_dt_dt style="color: rgb(77, 127, 184); float:middle"></span>
           <SCRIPT language=javascript>
           function show_date_time(){
           window.setTimeout("show_date_time()", 1000);
@@ -226,7 +226,7 @@
           e_minsold=(e_hrsold-hrsold)*60;
           minsold=Math.floor((e_hrsold-hrsold)*60);
           seconds=Math.floor((e_minsold-minsold)*60);
-          span_dt_dt.innerHTML=""+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+          span_dt_dt.innerHTML=""+daysold+"{{ i18n "days" }}"+hrsold+"{{ i18n "hours" }}"+minsold+"{{ i18n "minutes" }}"+seconds+"{{ i18n "seconds" }}";
           }
           show_date_time();
           </SCRIPT>

@@ -124,3 +124,21 @@ other = "Liability Notice"
 
 [search]
 other = "Search"
+
+[totalVisits]
+other = "Total Visits: "
+
+[runningTime]
+other = "Safely running for "
+
+[days]
+other = "d "
+
+[hours]
+other = "h "
+
+[minutes]
+other = "m "
+
+[seconds]
+other = "s"

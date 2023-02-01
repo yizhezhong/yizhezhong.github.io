@@ -3,7 +3,7 @@
 other = "主页"
 
 [posts]
-other = "博文"
+other = "文章"
 
 [toc_heading]
 other = "目录"
@@ -124,3 +124,21 @@ other = "免责声明"
 
 [search]
 other = "搜索"
+
+[totalVisits]
+other = "本站总访问量："
+
+[runningTime]
+other = "本站已安全运行"
+
+[days]
+other = "天"
+
+[hours]
+other = "小时"
+
+[minutes]
+other = "分"
+
+[seconds]
+other = "秒"
