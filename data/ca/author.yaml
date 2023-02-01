@@ -3,7 +3,7 @@ name: "Yizhe Zhong"
 nickname: "Yizhe"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I'm"
-image: "images/author/dysonSphere.jpeg"
+image: "images/author/dysonSphere.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "yizhezhong@outlook.com.com"
