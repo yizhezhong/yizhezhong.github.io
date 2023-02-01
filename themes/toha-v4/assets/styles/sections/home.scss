@@ -50,13 +50,13 @@
 
     .greeting, .greeting-subtitle {
         color: #f9fafc;
-        text-shadow: 0 0 0.2em #172f4b
+        text-shadow: 0.1em 0.1em 0.2em #172f4b; /*edited by yizhe*/
     }
 
     .typing-carousel {
         font-size: 14pt;
         color: #f0f0f0;
-        text-shadow: 0 0 0.2em #172f4b;
+        text-shadow: 0.1em 0.1em 0.2em #172f4b; /*edited by yizhe*/
     }
 
     #typing-carousel-data {
