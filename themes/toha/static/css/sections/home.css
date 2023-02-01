@@ -15,7 +15,7 @@
     background-attachment: fixed;
     background-position: center;
     transform: scale(1.1);
-    filter: blur(3px); /*edited by yizhe 2/2*/ 
+    /*filter: blur(3px); edited by yizhe 2/2*/ 
     background-size: cover;
 }
 
