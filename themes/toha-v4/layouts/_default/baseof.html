@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
-  <head>
+<head>
     <title>{{ .Page.Title }}</title>
     <!------ ADD COMMON HEADERS -------->
     {{- partial "header.html" . -}}
@@ -11,8 +11,8 @@
 
     <!--================= add analytics if enabled =========================-->
     {{- partial "analytics.html" . -}}
-
-  </head>
+    
+</head>
 
   <body class="type-{{ .Page.Type }} kind-{{ .Page.Kind }}" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
     <div class="container-fluid bg-dimmed wrapper">
