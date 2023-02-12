@@ -66,8 +66,8 @@
             <div class="col-md-6 share-buttons">
                 {{ if site.Params.features.blog.shareButtons }}
 
-                <div class="share-component" data-disabled="" display="inline"><strong>{{ i18n "share_on" }}: </strong></div>
-
+                <!-- edited by yizhe -->
+                <div class="share-component" data-disabled="google" data-mobile-sites="weibo,qq,qzone,tencent"><strong>{{ i18n "share_on" }}: </strong></div>
 
                 {{ if site.Params.features.blog.shareButtons.facebook }}
                 <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">
