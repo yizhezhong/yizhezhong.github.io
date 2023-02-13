@@ -1,5 +1,5 @@
 baseURL: https://yizhe.site
-
+enableRobotsTXT: true
 #languageCode: en
 #title: "Yizhe.Site"
 

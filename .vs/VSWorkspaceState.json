@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\themes",
+    "\\themes\\toha-v4",
+    "\\themes\\toha-v4\\assets",
+    "\\themes\\toha-v4\\assets\\scripts",
+    "\\themes\\toha-v4\\assets\\scripts\\pages",
+    "\\themes\\toha-v4\\content",
+    "\\themes\\toha-v4\\images",
+    "\\themes\\toha-v4\\layouts"
   ],
   "PreviewInSolutionExplorer": false
 }
