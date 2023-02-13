@@ -1,6 +1,7 @@
 ---
 hero: /images/background/sunrise.jpg
 author:
-    name: Md. Emruz Hossain
+    name: Yizhe Zhong
     image: /images/profile-image.jpg
+lastmod: {{ .Date }}
 ---

@@ -30,10 +30,10 @@ skills:
   summary: "Know basic usage of MATLAB. Capable of performing analysis related to mathematics, signals and control systems with MATLAB."
   url: "https://www.mathworks.com/"
 
-- name: Java
-  logo: /images/sections/skills/java.png
-  summary: "Know basic Java syntax."
-  url: "https://www.java.com/"
+- name: LTspice
+  logo: /images/sections/skills/ltspice.jpg
+  summary: "Capable of using LTspice for circuit analysis."
+  url: "https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html"
 
 - name: HTML & CSS
   logo: /images/sections/skills/html.png

@@ -117,7 +117,7 @@ other = "更多的"
 other = "查看证书"
 
 [notes]
-other = "笔记"
+other = "备忘录"
 
 [disclaimer_text]
 other = "免责声明"
@@ -142,3 +142,9 @@ other = "分"
 
 [seconds]
 other = "秒"
+
+[createdDate]
+other = "创建于 "
+
+[updatedDate]
+other = "更新于 "

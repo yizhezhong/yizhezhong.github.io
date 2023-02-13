@@ -124,3 +124,9 @@ other = "免责声明"
 
 [search]
 other = "搜索"
+
+[createdDate]
+other = "创建于 "
+
+[updatedDate]
+other = "更新于 "

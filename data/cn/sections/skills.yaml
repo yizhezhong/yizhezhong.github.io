@@ -30,10 +30,10 @@ skills:
   summary: "掌握MATLAB的基本用法，可以使用MATLAB进行数学、信号以及控制系统相关的分析。"
   url: "https://www.mathworks.com/"
 
-- name: Java
-  logo: /images/sections/skills/java.png
-  summary: "了解Java基本语法。"
-  url: "https://www.java.com/"
+- name: LTspice
+  logo: /images/sections/skills/ltspice.jpg
+  summary: "可以使用LTspice进行电路分析。"
+  url: "https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html"
 
 - name: HTML & CSS
   logo: /images/sections/skills/html.png
