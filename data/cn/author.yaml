@@ -6,7 +6,7 @@ greeting: "你好，我是"
 image: "images/author/dysonSphere.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "yizhezhong@outlook.com.com"
+  email: "yizhezhong@outlook.com"
   #phone: "+1-#"
   #github: 
   #linkedin: "#"
