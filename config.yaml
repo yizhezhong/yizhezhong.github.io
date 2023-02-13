@@ -66,7 +66,7 @@ outputs:
 # Enable global emoji support
 enableEmoji: true
 
-# Site parameters
+# Site parameters edited by yizhe
 params:
   # Background image of the landing page
   background: /images/site/background39.jpeg
