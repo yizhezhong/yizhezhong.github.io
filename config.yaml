@@ -1,5 +1,4 @@
 baseURL: https://yizhe.site
-enableRobotsTXT: true
 #languageCode: en
 #title: "Yizhe.Site"
 
@@ -22,6 +21,7 @@ module:
 
 # modified by yizhe
 enableGitInfo: true
+enableRobotsTXT: true
 
 frontmatter:
   lastmod:
