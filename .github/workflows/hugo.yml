@@ -40,8 +40,14 @@ jobs:
         uses: actions/checkout@master
         with:
           fetch-depth: 0
-      - name: Disable quotePath
-        run: git config --global core.quotePath false
+      
+      - name: Git Configuration
+        run: |
+          git config --global core.quotePath false
+          git config --global core.autocrlf false
+          git config --global core.safecrlf true
+          git config --global core.ignorecase false
+      
       - name: setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
