@@ -10,6 +10,19 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      # modified by yizhe
+      - name: Checkout
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 0
+      - name: Disable quotePath
+        run: git config --global core.quotePath false
+      - name: setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+            hugo-version: 'latest'
+            extended: true
+
     # checkout to the commit that has been pushed
     - uses: actions/checkout@v3
 
