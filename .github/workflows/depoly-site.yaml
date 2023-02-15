@@ -1,0 +1,49 @@
+name: Hugo build and deploy
+on:
+  push:
+
+env:
+  TZ: Canada/Atlantic # 设置当前环境时区
+
+jobs:
+  Actions-Hugo-Deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Check out repository code
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0         # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Git Configuration
+        run: |
+          git config --global core.quotePath false
+          git config --global core.autocrlf false
+          git config --global core.safecrlf true
+          git config --global core.ignorecase false          
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+          extended: true
+      - name: Build Hugo static files
+        run: hugo -v --gc --minify
+      - name: Deploy to Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          external_repository: yizhezhong/yizhezhong.github.io
+          publish_branch: main
+          publish_dir: ./public
+
+  
+      - name: NPM install
+        run: npm install
+      - name: Update Algolia index
+        env:
+          ALGOLIA_APP_ID: B6R922P6DD
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+          ALGOLIA_INDEX_NAME: 'dev_hugo'
+          ALGOLIA_INDEX_FILE: './public/index.json'
+        run: npm run algolia
