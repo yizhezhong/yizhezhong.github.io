@@ -1,51 +1,32 @@
-name: Hugo build and deploy
-on:
-  push:
-  workflow_dispatch:
+name: deploy
 
-env:
-  TZ: Canada/Atlantic # 设置当前环境时区
+on:
+    push:
+    workflow_dispatch:
 
 jobs:
-  Actions-Hugo-Deploy:
-    runs-on: ubuntu-latest
-    steps:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+              with:
+                  submodules: true
+                  fetch-depth: 0
 
-      - name: Check out repository code
-        uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0         # Fetch all history for .GitInfo and .Lastmod
+            - name: Setup Hugo
+              uses: peaceiris/actions-hugo@v2
+              with:
+                  hugo-version: "latest"
 
-      - name: Git Configuration 
-        run: |
-          git config --global core.quotePath false
-          git config --global core.autocrlf false
-          git config --global core.safecrlf true
-          git config --global core.ignorecase false          
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: latest
-          extended: true
-      - name: Build Hugo static files
-        run: hugo -v --gc --minify
-      
-      - name: Deploy to Github Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-          external_repository: yizhezhong/yizhezhong.github.io
-          publish_branch: main
-          publish_dir: ./public
+            - name: Build Web
+              run: hugo
 
-  
-      - name: NPM install
-        run: npm install
-      - name: Update Algolia index
-        env:
-          ALGOLIA_APP_ID: B6R922P6DD
-          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
-          ALGOLIA_INDEX_NAME: 'dev_hugo'
-          ALGOLIA_INDEX_FILE: './public/index.json'
-        run: npm run algolia
+            - name: Deploy Web
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+                  EXTERNAL_REPOSITORY: yizhezhong/yizhezhong.github.io
+                  PUBLISH_BRANCH: main
+                  PUBLISH_DIR: ./public
+                  commit_message: ${{ github.event.head_commit.message }}
