@@ -28,9 +28,9 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "yizhezhong@outlook.com"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/yizhezhong"
+# - name: Github
+#   icon: "fab fa-github"
+#   url: "https://www.github.com/"
 
 #- name: Stackoverflow
   #icon: "fab fa-stack-overflow"
