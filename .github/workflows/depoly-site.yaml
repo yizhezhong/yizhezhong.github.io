@@ -4,6 +4,9 @@ on:
     push:
     workflow_dispatch:
 
+env:
+  TZ: Canada/Atlantic
+
 jobs:
     build:
         runs-on: ubuntu-latest 
@@ -14,14 +17,21 @@ jobs:
                   submodules: true
                   fetch-depth: 0
 
+            - name: Git Configuration
+              run: |
+                git config --global core.quotePath false
+                git config --global core.autocrlf false
+                git config --global core.safecrlf true
+                git config --global core.ignorecase false
+
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v2
               with:
                   hugo-version: "latest"
                   extended: true
 
-            - name: Build Web
-              run: hugo
+            - name: Build
+              run: hugo --minify
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
@@ -30,4 +40,3 @@ jobs:
                   EXTERNAL_REPOSITORY: yizhezhong/yizhezhong.github.io
                   PUBLISH_BRANCH: gh-pages
                   PUBLISH_DIR: ./public
-                  commit_message: ${{ github.event.head_commit.message }}
