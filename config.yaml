@@ -26,8 +26,8 @@ enableRobotsTXT: true
 frontmatter:
   lastmod:
     - :git
-    # - lastmod
-    # - :fileModTime
+    - lastmod
+    - :fileModTime
 
 
 # Manage languages
