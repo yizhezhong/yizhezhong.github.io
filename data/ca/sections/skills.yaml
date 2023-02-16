@@ -19,7 +19,7 @@ skills:
 - name: Python
   logo: /images/sections/skills/python.png
   summary: "Familiar with Python and know web scraping."
-  url: "https://https://www.python.org/"
+  url: "https://www.python.org/"
 
 - name: VHDL/Verilog
   logo: /images/sections/skills/vhdl.png
@@ -52,4 +52,4 @@ skills:
 - name: Adobe Creative Cloud
   logo: /images/sections/skills/adobe2.png
   summary: "Learned Ai, Ps, Ae, Pr, etc., from self-learning. Have experience of using these softwares."
-  url: "https://https://www.adobe.com/" 
+  url: "https://www.adobe.com/" 

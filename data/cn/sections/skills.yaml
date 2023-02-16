@@ -19,7 +19,7 @@ skills:
 - name: Python
   logo: /images/sections/skills/python.png
   summary: "熟悉python语言，并对爬虫有所了解。"
-  url: "https://https://www.python.org/"
+  url: "https://www.python.org/"
 
 - name: VHDL/Verilog
   logo: /images/sections/skills/vhdl.png
@@ -52,4 +52,4 @@ skills:
 - name: Adobe Creative Cloud
   logo: /images/sections/skills/adobe2.png
   summary: "自学了解Ai、Ps、Ae、Pr等软件，有一些创作经历。"
-  url: "https://https://www.adobe.com/" 
+  url: "https://www.adobe.com/" 

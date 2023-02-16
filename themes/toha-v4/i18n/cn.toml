@@ -148,3 +148,6 @@ other = "创建于 "
 
 [updatedDate]
 other = "更新于 "
+
+[Views]
+other = "阅读量: "

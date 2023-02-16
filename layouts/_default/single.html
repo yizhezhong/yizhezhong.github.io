@@ -39,7 +39,13 @@
           <div class="author-profile ml-auto align-self-lg-center">
               <img class="rounded-circle" src='{{ partial "helpers/get-author-image.html" . }}' alt="Author Image">
               <h5 class="author-name">{{ partial "helpers/get-author-name.html" . }}</h5>
-              <p>{{ i18n "createdDate" }}{{ .Date.Format "2006-01-02" }}{{ if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }} | {{ i18n "updatedDate" }}{{ .Lastmod.Format "2006-01-02" }}{{ end }}</p>
+              <p>
+                  {{ i18n "createdDate" }}{{ .Date.Format "2006-01-02" }}{{ if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }} | {{ i18n "updatedDate" }}{{ .Lastmod.Format "2006-01-02" }}{{ end }}
+                  <!-- busuanzi -->
+                  {{ if .Site.Params.busuanzi.enable -}} |
+                  <span id="busuanzi_container_page_pv">{{ i18n "Views" }}<span id="busuanzi_value_page_pv"></span></span>
+                  {{- end }}
+              </p>
           </div>
 
           <div class="title">

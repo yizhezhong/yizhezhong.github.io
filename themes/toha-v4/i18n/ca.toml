@@ -148,3 +148,6 @@ other = "Created Date: "
 
 [updatedDate]
 other = "Updated Date: "
+
+[Views]
+other = "Page Views: "
