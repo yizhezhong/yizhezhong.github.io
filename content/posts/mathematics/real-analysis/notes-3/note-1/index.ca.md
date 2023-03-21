@@ -22,7 +22,12 @@ A sequence of real numbers $X = (x_n)$ is convergent if there exists $x \in \mat
 Theorem 3.1
 The limit of a sequence $X = (x_n)$ is unique if it exists.
 proof:
-Suppose the sequence X has two limits $x$ and $x'$. 
+Suppose the sequence X has two limits $x$ and $x'$......
+
+Definition 3.5.1  
+Cauchy sequence is a sequence of real number $(x_n)$ such that for any $\varepsilon > 0$, there exists $N(\varepsilon) \in \mathbb{N}$ such that for any natural numbers $n, m \ge H(\varepsilon)$, $|x_n - x_m| < \varepsilon$.
+
+
 
 
 
