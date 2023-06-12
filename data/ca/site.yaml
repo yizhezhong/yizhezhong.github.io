@@ -11,7 +11,7 @@ In no event will we be liable for any loss or damage including without limitatio
 or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website."
 
 # Meta description for your site.  This will help the search engines to find your site.
-#description: The personal profile and blogs of Yizhe Zhong.
+description: The personal profile and blogs of Yizhe Zhong.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -28,6 +28,6 @@ customMenus:
 openGraph:
   title: Yizhe's Site
   type: website
-  #description: The personal profile and blogs of Yizhe Zhong.
+  description: The personal profile and blogs of Yizhe Zhong.
   image: images/author/dysonSphere.jpg
   url: https://yizhezhong.github.io

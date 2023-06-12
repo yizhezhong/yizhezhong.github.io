@@ -8,25 +8,25 @@ section:
   template: sections/about.html
 
 # your designation
-#designation: Student
+designation: Student
 # your company information
 company:
-  #name: Dalhousie University
-  #url: "https://www.dal.ca"
+  name: Dalhousie University
+  url: "https://www.dal.ca"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-#summary: '我是一名在读本科生。我的专业是计算机工程和数学。'
+summary: '我是一名学生。'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  #url: "yizhezhong@outlook.com"
+  url: "yizhezhong@outlook.com"
 
 # - name: Github
 #   icon: "fab fa-github"
@@ -59,9 +59,9 @@ socialLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  #name: Dalhousie University
-  #url: "https://www.credly.com/organizations/dalhousie-university/badges"
-  #badge: "https://images.credly.com/size/680x680/images/d0c925ae-e71b-4784-90fd-7cc97f1feaa8/blob.png"
+  name: Dalhousie University
+  url: "https://www.credly.com/organizations/dalhousie-university/badges"
+  badge: "https://images.credly.com/size/680x680/images/d0c925ae-e71b-4784-90fd-7cc97f1feaa8/blob.png"
 
 #- type: certification
   #name: Istio and IBM Cloud Kubernetes Service
