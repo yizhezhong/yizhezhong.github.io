@@ -41,7 +41,7 @@ degrees:
     - name: Networks & Systems
       achieved: N/A
       #outOf: 4.3
-- name: BSc in Mathematics (Pure Mathematics Stream)
+- name: BSc in Mathematics
   icon: fa-graduation-cap
   timeframe: 2019-2024
   institution:

@@ -41,7 +41,7 @@ degrees:
     - name: 网络与系统
       achieved: N/A
       #outOf: 4.3
-- name: 数学（纯粹数学方向）学士
+- name: 数学学士
   icon: fa-graduation-cap
   timeframe: 2019-2024
   institution:

@@ -1,6 +1,6 @@
 # some information about you
 #name: "钟一哲" 
-#nickname: "Yizhe"
+nickname: ""
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "WELCOME" #"你好，我是"
 image: "images/author/dysonSphere.jpg"
